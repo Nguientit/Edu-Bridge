@@ -1,0 +1,85 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f3f4f6;
+}
+
+.login-container {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-body {
+  position: relative;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 0 0.2rem rgba(106, 17, 203, 0.25);
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+a {
+  color: #6a11cb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #5a0fbf;
+}
+
+a.d-block {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  color: #333;
+  font-weight: 500;
+}
+
+.alert-danger {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,165 @@
+/* General Styles */
+.checkout-container {
+    padding: 2rem;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .checkout-header {
+    /* text-align: center; */
+    margin-bottom: 2rem;
+    /* font-size: 2.5rem; */
+    font-weight: 700;
+    color: #333;
+    font-family: SuisseWorks, Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -.016rem;
+    max-width: 36em;
+  }
+  .price-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .section-header {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .secured-connection {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #6c757d;
+  }
+  
+  .required-text {
+    font-size: 0.875rem;
+    color: red;
+    margin-top: 0.25rem;
+  }
+  
+  .form-text {
+    margin-top: 0.5rem;
+    color: #6c757d;
+    font-size: 0.875rem;
+  }
+  
+  .payment-method {
+    margin-bottom: 2rem;
+  }
+  .payment-method-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 1.6rem;
+    top: .1rem;
+  }
+  .payment-option {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .payment-option input[type="radio"] {
+    margin-right: 1rem;
+  }
+  
+  .payment-icons img {
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .order-card {
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  .card-title img{
+    width: 120px;
+    height: auto;
+  }
+  .course-image {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 0.25rem;
+  }
+  
+  .summary {
+    margin-bottom: 1.5rem;
+  }
+  
+  .summary-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+  }
+  .summary-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  .summary-bg {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .total-line {
+    font-weight: 700;
+  }
+  
+  .total {
+    font-weight: 700;
+  }
+  
+  .terms {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .terms a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  
+  .checkout-button {
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    background-color: #6610f2;
+    border: none;
+  }
+  
+  .checkout-button:hover {
+    background-color: #520dc2;
+  }
+  
+  .guarantee {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+  }
+  

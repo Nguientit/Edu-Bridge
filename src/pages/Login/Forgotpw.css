@@ -1,0 +1,29 @@
+body {
+  background: #f5f5f5;
+}
+
+.Card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.Form.Control {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Button {
+  background-color: #007bff;
+  border: none;
+}
+
+.Button:hover {
+  background-color: #0056b3;
+}
+
+.Alert {
+  margin-top: 10px;
+}

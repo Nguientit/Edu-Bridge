@@ -1,0 +1,25 @@
+
+
+.custom-dropdown .btn {
+    background-color: transparent important;
+    border-color: transparent !important;
+    color: inherit !important;
+    font-size: 1.2rem; 
+}
+
+.custom-dropdown .btn:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: inherit !important;
+}
+
+.custom-dropdown .btn:focus {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    color: inherit !important;
+}
+.aa{
+    font-size: 1.2rem; 
+}
+

@@ -1,0 +1,56 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 0.75rem;
+}
+
+.shoppingcart-header {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #333;
+  font-family: SuisseWorks, Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.25;
+  letter-spacing: -.016rem;
+  max-width: 36em;
+}
+
+.card-body h1,
+.card-body h5 {
+  font-weight: bold;
+}
+
+.card-body .btn {
+  border-radius: 0.5rem;
+}
+
+.card-body .btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.card-body .btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.img-fluid {
+  border-radius: 0.75rem;
+}
+
+.text-warning .bi-star-fill,
+.text-warning .bi-star-half {
+  font-size: 1rem;
+  color: black;
+}
+
+input.form-control {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+button#basic-addon2 {
+  border-radius: 0 0.5rem 0.5rem 0;
+}

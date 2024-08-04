@@ -1,0 +1,48 @@
+.btn {
+  border: none;
+  border-radius: 0;
+ 
+}
+
+.tab {
+  padding: 10px 15px; 
+  margin: 0; 
+  position: relative;
+}
+.selected {
+  border-bottom: 3px solid black;
+}
+.certificate-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+margin-top: 20px;
+margin-left: 35%;
+border: 1px solid rgb(0, 0, 0);
+background-color: #f9f9f9;
+text-align: center;
+max-width: 33%;
+}
+
+.certificate-container h3 {
+margin: 10px 0;
+}
+
+.certificate-container svg {
+margin: 10px 0;
+}
+
+.certificate-container button {
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.certificate-container button:hover {
+background-color: gray;
+}

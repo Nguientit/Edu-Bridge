@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Poppins:wght@800&display=swap');
+
+:root {
+  --blue: #bec0c3;
+  --light-blue: #34373b;
+  --dark-blue: #0261CC;
+  --white: #131212;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+}
+
+.complete-certificates {
+  width: 50vw; /* Reduced width */
+  height: 50vh; /* Reduced height */
+  position: relative;
+  overflow: hidden;
+  color: var(--light-blue);
+  background-color: var(--blue);
+  background-image: url('data:image/svg+xml;utf8,<svg width="55" height="45" viewBox="0 0 55 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M5.49121 44.2515C5.49121 40.4116 7.02223 36.7289 9.74745 34.0137C12.4727 31.2985 16.1689 29.7731 20.0229 29.7731C23.877 29.7731 27.5732 31.2985 30.2984 34.0137C33.0236 36.7289 34.5546 40.4116 34.5546 44.2515M20.0229 20.724C20.0229 16.8841 21.5539 13.2014 24.2791 10.4862C27.0044 7.77095 30.7006 6.24554 34.5546 6.24554C38.4087 6.24554 42.1049 7.77095 44.8301 10.4862C47.5553 13.2014 49.0863 16.8841 49.0863 20.724V44.2515" stroke="%230261CC50" stroke-width="11"/></svg>');
+  background-size: 100%;
+  background-position: 90% 150%;
+  background-repeat: no-repeat;
+  padding: 1.5rem; /* Reduced padding */
+}
+
+.complete-certificates svg {
+  position: absolute;
+  top: 0;
+}
+
+.complete-certificates .content {
+  position: absolute;
+  top: 8rem; /* Adjusted position */
+  right: 1.5rem; /* Adjusted position */
+  width: 65%;
+}
+
+.complete-certificates .content * {
+  margin-bottom: 0.5rem; /* Reduced margin */
+}
+
+.complete-certificates .content h1 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--white);
+  font-size: 2rem !important; /* Reduced font size */
+  line-height: 1;
+  margin-bottom: 1rem; /* Reduced margin */
+}
+
+.complete-certificates .content h2 {
+  font-size: 1.5rem !important; /* Reduced font size */
+  font-weight: 500;
+  line-height: 1;
+}
+
+.complete-certificates .byline {
+  position: absolute;
+  right: 1.5rem; /* Adjusted position */
+}
+
+.complete-certificates .date {
+  position: absolute;
+  bottom: 1.5rem; /* Adjusted position */
+  font-size: 0.75rem;
+}
+
+.complete-certificates .bold {
+  font-weight: 500;
+}
+.complete-certificates-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.user-info {
+  width: 35%; /* Adjusted width */
+  background-color: #f1f1f1;
+  padding: 10px; /* Reduced padding */
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 80px; /* Reduced size */
+  height: 80px; /* Reduced size */
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.certificate-section {
+  width: 60%; /* Adjusted width */
+}
+
+.complete-certificates .byline {
+  font-size: 1em; /* Reduced font size */
+  margin-bottom: 20px;
+}
+
+.complete-certificates .content p {
+  font-size: 0.9em; /* Reduced font size */
+  margin: 5px 0;
+}
+
+.complete-certificates .content h1 {
+  font-size: 1.8em; /* Reduced font size */
+  margin: 10px 0;
+}
+
+.complete-certificates .content h2 {
+  font-size: 1.2em; /* Reduced font size */
+  margin: 10px 0;
+}
+
+.complete-certificates .date {
+  margin-top: 20px;
+  font-size: 0.9em; /* Reduced font size */
+}
+
+.complete-certificates .date .bold {
+  font-weight: bold;
+}
+
+.instructor-profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  vertical-align: middle;
+}

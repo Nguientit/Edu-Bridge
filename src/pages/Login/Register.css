@@ -1,0 +1,15 @@
+.register-container {
+  min-height: 100vh;
+}
+
+@media (max-width: 576px) {
+  .register-container .card {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-container .card {
+    margin: 0 30px;
+  }
+}

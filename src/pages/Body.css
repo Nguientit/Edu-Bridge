@@ -1,0 +1,42 @@
+.course-container {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .hover-box {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 300px;
+  }
+  
+  .course-container:hover .hover-box,
+  .course-container .hover-box:hover {
+    display: block;
+  }
+  
+  .hover-box h4, .hover-box h6, .hover-box p {
+    margin: 10px 0;
+  }
+  .hover-box-left {
+    left: auto;
+    right: 100%;
+  }
+  .hover-box button {
+    display: block;
+    width: 100%;
+    background: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

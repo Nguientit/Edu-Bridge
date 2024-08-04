@@ -1,0 +1,21 @@
+.card-img {
+  height: 240px; /* Điều chỉnh chiều cao của ảnh */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo khi thu nhỏ */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.card-btn {
+  margin-top: auto;
+}

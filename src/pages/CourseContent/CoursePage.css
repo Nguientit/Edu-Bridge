@@ -1,0 +1,11 @@
+.lesson-selected {
+    background-color: #e0f7fa; 
+    font-weight: bold;      
+    border-left: 5px solid #007bff; 
+}
+.icon-style {
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 24px; 
+    cursor: pointer;
+}
